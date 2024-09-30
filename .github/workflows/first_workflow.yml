@@ -1,0 +1,11 @@
+name: first_workflowjobs
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first_step
+        run: echo "first-step"
+      - name: finsh_step
+        run: echo "good_bye"
+      
